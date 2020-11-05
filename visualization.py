@@ -5,13 +5,13 @@ import csv
 import seaborn as sns
 
 #Reading csv and putting data into a Dataframe
-itc_10 = pd.read_csv(r"itc_10.csv")
-itc_100 = pd.read_csv(r"itc_100.csv")
-itc_1000 = pd.read_csv(r"itc_1000.csv")
+itc_10 = pd.read_csv(r"times/itc_10.csv")
+itc_100 = pd.read_csv(r"times/itc_100.csv")
+itc_1000 = pd.read_csv(r"times/itc_1000.csv")
 
-lzw_10 = pd.read_csv(r"lzw_10.csv")
-lzw_100 = pd.read_csv(r"lzw_100.csv")
-lzw_1000 = pd.read_csv(r"lzw_1000.csv")
+lzw_10 = pd.read_csv(r"times/lzw_10.csv")
+lzw_100 = pd.read_csv(r"times/lzw_100.csv")
+lzw_1000 = pd.read_csv(r"times/lzw_1000.csv")
 
 
 #putting coordinates
